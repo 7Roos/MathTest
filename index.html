@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!--PAGE INFO-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MathTest</title>
+    <!--FAVICON-->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <!--ICON-->
+    <link rel="stylesheet" href="assets/icomoon/style.css" />
+    <!--STYLES-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--MathJax-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Math<span>Test</span></a>
+        <!--menu-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Problema</a></li>
+            <li><a class="title" href="#services">Plataforma</a></li>
+          </ul>
+        </div>
+
+        <!--DARK MODE-->
+        <div class="toggle">
+          <input id="switch" type="checkbox" name="theme" />
+          <label for="switch">
+            <i class="icon-sun"></i>
+            <i class="icon-moon"></i>
+          </label>
+        </div>
+
+        <!--/menu-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              data-tilt
+              data-tilt-glare
+              data-tilt-max-glare="0.8"
+              data-tilt-max="10"
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              alt="Pessoas discutindo um problema em frente ao notebook"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Provas discursivas com correção automática</h2>
+            <p>
+              Uma solução para fazer provas e listas discursivas de matemática,
+              que utiliza \(\LaTeX\) para a escrita e Inteligência Artificial
+              (IA) para a correção automatizada.
+            </p>
+            <div data-tilt>
+              <a class="button" href="#"
+                ><i class="icon-github"></i>Confira o projeto
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image" data-tilt data-tilt-max="10" data-tilt-speed="100">
+            <img
+              src="https://images.unsplash.com/photo-1509475826633-fed577a2c71b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+              alt="óculos sobre um caderno"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">O Problema</h2>
+            <p>
+              Neste período de pandemia foi um grande desafio para a área de
+              educação, tanto no formato das aulas como das provas. Na área das
+              exatas, como física e matemática, é usual realizar-se provas e
+              listas de exercícios discursivos.
+            </p>
+            <br />
+            <p>
+              O problema é submeter isso ao professor, no geral a prova é
+              escrita à mão, logo depois escaneada e enviada ao professor, o
+              aluno deve se esforçar pra ter uma letra legível e o professor em
+              entender a grafia de cada um num documento escaneado, que nem
+              sempre terá uma boa apresentação.
+            </p>
+            <br />
+            <p>
+              Seria ótimo se houvesse uma aplicação, em que o aluno realizasse
+              uma prova discursiva de matemática com a ajuda de um editor
+              baseado na linguagem \(\LaTeX\), garantindo uma prova legível para
+              a correção. Além de que houvesse um corretor automático feito com
+              IA, para que o professor não tivesse o ônus do tempo desprendido
+              em corrigir um grande montante de provas/listas de exercícios.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <section class="section" id="services">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">A plataforma</h2>
+            <p>
+              Semelhante ao site Geogebra, o modo "prova" irá travar a tela, ou
+              seja, não permitindo que se acesse qualquer outra funcionalidade
+              do computador além da página onde se encontra a prova. Não
+              permitindo assim que o aluno "dê ctr+c ctr+v".
+            </p>
+            <br />
+            <p>
+              O aluno poderá escrever suas expressões normalmente, e conforme
+              precisar de uma expressão matemática ou de uma letra grega, ele
+              irá acessar clicando no botões corresponde, visualizando
+              imediatamente o resultado tipográfico que será submetido para
+              correção.
+            </p>
+            <br />
+            <p>
+              Assim como existem IA's, que conseguem diferenciar uma imagem da
+              outra, fazendo a distinção de um gato para um cachorro numa foto
+              qualquer, por exemplo. Dessa mesma forma, também é possível que
+              uma dada IA, quando bem treinada, consiga notar duas resoluções de
+              questões discursivas, que seguem caminhos diferentes e expressões
+              diferentes, mas que estejam corretas, bem como quando o aluno
+              erra.
+            </p>
+            <br />
+            <p>
+              Essa é a proposta do MathTest para os problemas mencionados
+              anteriormente.
+            </p>
+          </div>
+          <div class="video">
+            <video autoplay="autoplay" loop="loop" width="300" height="300">
+              <source src="./assets/video/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="" class="logo logo-alt">Math<span>Test</span></a>
+          <p>2021 MathTest</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--vanilla-tilt.js-->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+    <!--SCRIPT JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
